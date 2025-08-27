@@ -1,3 +1,5 @@
+//src/app.js
+
 import React from 'react';
 
 // Lucide React Icons (https://lucide.dev/icons/)
@@ -579,7 +581,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Testimonials /> {/* Testimonials সেকশন যোগ করা হয়েছে */}
+      <Testimonials /> 
       <Education />
       <Contact />
       <Footer />

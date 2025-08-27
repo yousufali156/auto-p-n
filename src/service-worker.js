@@ -1,3 +1,5 @@
+// src/service-worker.js
+
 /* eslint-disable no-restricted-globals */
 
 // This service worker can be customized!
@@ -35,7 +37,7 @@ registerRoute(
 
     if (url.pathname.startsWith('/_')) {
       return false;
-    } // If this looks like a URL for a resource, because it contains // a file extension, skip.
+    } 
 
     if (url.pathname.match(fileExtensionRegexp)) {
       return false;
